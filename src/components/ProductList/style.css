@@ -1,0 +1,67 @@
+
+/* Style for the product list container */
+.product-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the search input container */
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the search input field */
+  .search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Style for product cards */
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for product card image */
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for product name */
+  .product-card h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Style for product price */
+  .product-card p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Style for the "View Details" link */
+  .product-card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff; /* Blue color for links, you can change this color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .product-card a:hover {
+    color: #0056b3; /* Darker blue color on hover */
+  }
+  

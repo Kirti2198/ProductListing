@@ -1,0 +1,49 @@
+/* Add this CSS to your project's stylesheet (e.g., App.css or a separate CSS file) */
+
+/* Style for the product container */
+.product-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the product card */
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the product image */
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the product name */
+  .product-card h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333; /* Text color, you can change this */
+  }
+  
+  /* Style for the product price */
+  .product-card p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #007bff; /* Blue color for the price, you can change this */
+    font-weight: bold;
+  }
+  
+  /* Style for the product description */
+  .product-card p.description {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #666; /* Description text color, you can change this */
+  }
+  
